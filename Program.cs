@@ -29,6 +29,8 @@ namespace SearchAlgorithm
             Console.WriteLine("_ _ _ _ _ _ _ _ _ _ ");
             Console.WriteLine("Enter Array Elements");
             Console.WriteLine("_ _ _ _ _ _ _ _ _ _ ");
+            for ( i = 0; i < n; i++)
+            { }
 
         }
     }
