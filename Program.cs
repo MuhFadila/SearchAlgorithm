@@ -20,8 +20,8 @@ namespace SearchAlgorithm
                 n = Int32.Parse(s);
                 if ((n > 0) && (n <= 20))
                     break;
-                else
-                    Console.WriteLine
+                
+                
             }
         }
     }
