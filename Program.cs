@@ -30,7 +30,11 @@ namespace SearchAlgorithm
             Console.WriteLine("Enter Array Elements");
             Console.WriteLine("_ _ _ _ _ _ _ _ _ _ ");
             for ( i = 0; i < n; i++)
-            { }
+            {
+                Console.Write("<" + (i + 1) + ">");
+                string s1 = Console.ReadLine();
+                arr[i] = Int32.Parse(s1);
+            }
 
         }
     }
